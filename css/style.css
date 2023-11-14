@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+header {
+    width: 100vw; 
+    display: flex;   
+    justify-content: space-between;
+    background-color: #63465a;
+}
+
+.logo {
+    padding-left: 60px;
+}
+
+nav {
+    background-color: #63465a;
+    width: 20%;
+    margin-right: 3rem;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100vw;
+    background-color: #131313;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0),#000 90%);
+}
+
+#start h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    color: rgba(255,255,255);
+    text-shadow: 0 0 80px rgb(192 219 255/48%), 0 0 32px rgb(65 120 255/24%);
+}
+
+#start p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: center;
+    text-align: justify;
+    letter-spacing: .1rem;
+    color: white;
+    font-family: inherit;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#start a {
+    color: white;
+    text-decoration: none;
+    background-color: #d04758;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0);
+}
+
+#second h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    color: rgba(255,255,255);
+    text-shadow: 0 0 80px rgb(192 219 255/48%), 0 0 32px rgb(65 120 255/24%);
+}
+
+#second h2 span {
+    color: #dea04b;
+    text-shadow: 0 0 80px rgb(192 219 255/48%), 0 0 32px rgb(65 120 255/24%);
+}
+
+#second .txt {
+    margin-top: 100px;
+}
+
+#second p {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-left: 350px;
+    padding-right: 350px;
+    letter-spacing: .1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+#second p span {
+    color: #4169e1;
+}
+
+#second .p1 p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: rgba(245,158,11);
+}
+
+#second .video {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 850px;
+    height: 500px;
+    border: 1px white solid;
+}
+
+#second .btn {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#second a {
+    color: white;
+    text-decoration: none;
+    background-color: #d04758;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.video img {
+    width: 100%;
+    height: 100%;
+}
+
