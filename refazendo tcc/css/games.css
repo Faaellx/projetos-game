@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100vw; 
+    display: flex;   
+    justify-content: space-between;
+    background-color: #63465a;
+}
+
+.logo {
+    padding-left: 60px;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #63465a;
+    width: 20%;
+    margin-right: 3rem;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 140px;
+    margin-bottom: 139px;
+    gap: 20px;
+}
+
+
+.game1 h1 {
+    text-transform:capitalize;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.game1 p {
+    color: rgba(156,163,175);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: justify;
+    margin-right: 800px;
+    
+}
+
+.btn {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.btn a {
+    background-color: #d04758;
+    text-decoration: none;
+    color: rgba(255,255,255);
+    border-radius: 10px;
+    padding: 20px;
+    letter-spacing: .1rem;
+}
+
+.game1 img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 150px;
+    top: 150px;
+}
+
+.game1 .icones {
+    display: flex;
+    gap: 10px;
+}
+
+.icones p {
+    font-size: .75rem;
+    line-height: 1rem;
+    margin: 0;
+    border-radius: .375rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 2px solid;
+    border-color: rgba(156,163,175,var(--tw-border-opacity));
+    
+}
